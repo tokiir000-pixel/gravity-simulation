@@ -180,7 +180,7 @@ if mode == "2d":
 
 			speeds[i] = [float(input(f"what is speed{i + 1}")), float(input(f"what is the direction of speed{i + 1}?")),
 						]
-			print("waiting...")
+		print("waiting...")
 
 		for i in range(num_objects):
 			positionsx[i] = [spositionsx[i], spositionsx[i] + speeds[i][0] * dt]
@@ -517,7 +517,7 @@ if mode == "3d":
 			spositionsy[i] = int(input(f"what is y{i+1}"))
 			spositionsz[i] = int(input(f"what is z{i+1}"))
 			speeds[i] = [float(input(f"what is speed{i+1}")), float(input(f"what is the direction of speed{i+1}?")), float(input(f"what is the tilt of speed{i+1}?"))]
-			print("waiting...")
+		print("waiting...")
 
 		for i in range(num_objects):
 			positionsx[i] = [spositionsx[i], spositionsx[i] + speeds[i][0] * dt]
